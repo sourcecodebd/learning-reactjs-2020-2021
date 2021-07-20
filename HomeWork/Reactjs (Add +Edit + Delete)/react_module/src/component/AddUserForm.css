@@ -1,0 +1,25 @@
+.AddUserForm {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(20, 155, 103);
+    border: 1px solid #000;
+    color: white;
+    width: 275px;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.btn {
+    background-color: #4c74af;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

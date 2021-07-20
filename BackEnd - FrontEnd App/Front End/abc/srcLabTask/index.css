@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(132, 0, 255)
+}
+
+.usermain {
+    position: relative;
+    margin: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 155, 103);
+    border: 1px solid #000;
+    color: white;
+    width: 400px;
+    height: 100%;
+    border-radius: 5px;
+    text-align: justify;
+    
+}
+
+.name{text-align: center; color: yellow}
+
+.btn {
+    background-color: #4c74af;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.title{
+    position: relative;
+    margin: auto;
+    padding: 5px;
+    background-color: darkblue;
+    border: 1px solid #000;
+    color: white;
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center
+}
+
+h3{
+    margin: 5px;
+}
+
+p{
+    margin: 5px;
+}
