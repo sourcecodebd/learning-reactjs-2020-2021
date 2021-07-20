@@ -1,0 +1,24 @@
+*To check version of nodejs: node --v: (14.16.0)
+*To check version of npm: 6.14.11
+
+*To run: node (file name) or node (filename.ext)
+
+*To run (if start added in package.json): npm start
+
+*To create package.json: npm init
+
+*To save package.json: npm init -y
+
+*To save/install anything in package.json: npm i (package name) --save [Recommended]
+
+*To install packages: [Not Recommended]
+npm install (package name) or npm i (package name)
+ex: 
+1. npm i mysql
+2. npm i jquery
+3. npm i bootstap
+
+
+
+
+

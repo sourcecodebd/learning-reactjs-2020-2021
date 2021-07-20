@@ -1,0 +1,49 @@
+import React, {useState} from 'react'
+import './centerStyle.css'
+import axios from 'axios'
+import {useHistory} from 'react-router-dom'
+
+function Login() {
+
+ const [email, setEmail] = useState("")
+ const [password, setPassword] = useState("")
+
+    let redirect= useHistory()
+
+   useEffect(() => {
+if(localStorage.getItem('token')
+history.push("/add")
+}, [])
+
+async function  login(){
+let item = {email, password}
+let result = await fetch("http://localhost:8000/api/login")
+method: 'POST',
+headers: {
+"Content-Type": "application/json",
+"Accept": "application/json"
+});
+result  = await result.json();
+localStorage.setItem("token",JSON.stringify(result))
+history.push("/home")
+}
+
+    return (
+        <div>
+            This is the add note section
+            <div class="centerStyle">
+            <form onSubmit={formSubmit}>
+                <div className="form-group">
+                    <label>Name</label>
+                    <input type="text" name= "name" value={name} onChange= {(e)=> setEmail(e.target.value} className="form-control" placeholder="Enter Name"/>
+                </div>
+                <div className="form-group">
+                    <label>Password</label>
+                    <input type="password" name= "password" value={password} onChange= {(e)=> setEmail(e.target.value} className="form-control"  placeholder="Enter Password"/>
+                </div>
+                <button type="submit" onClick = {login} className="btn btn-success">Create</button>
+            </form>
+            </div>
+        </div>
+    )
+}

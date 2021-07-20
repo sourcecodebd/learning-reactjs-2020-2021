@@ -1,0 +1,19 @@
+*To check version of reactjs: npm view react version (17.0.2)
+*To check version of npm: 6.14.11
+
+*To create new project: npx create-react-app (filename)
+
+#Development build----->
+*To run: npm start
+
+#Production build----->
+*After modifaction: npm run build
+*To activate feature regarding [run after building]: npm install -g serve
+*To run after build: serve -s build
+
+*If  'serve -s build' command failed then try this-
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+*To modify package.json: npm init -y
+
+

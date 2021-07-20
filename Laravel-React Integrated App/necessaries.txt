@@ -1,0 +1,15 @@
+composer create-project laravel/laravel larareact
+composer require laravel/ui
+php artisan ui react
+npm install
+php artisan serve
+
+php artisan make:model --migration
+$table->id();
+$table->string('name');
+$table->string('name');
+$table->timestamps();
+
+php artisan migrate
+
+php artisan make:controller api/DataController --resource
